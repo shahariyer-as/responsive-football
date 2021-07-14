@@ -221,6 +221,8 @@ grid-gap: 0px;
      .container{
         flex-direction: column;
         width: 100%;
+align-content: center;
+flex-wrap: wrap
      }
      .heading-banner h1{
         font-size: 45px;
@@ -228,7 +230,11 @@ grid-gap: 0px;
      }
      .banner-image{
         margin-top: 5px;
-        width: 80%;
+       
+     }
+     .banner-image img{
+        width: 85%;
+        margin-left: 54px;
      }
 
  }
