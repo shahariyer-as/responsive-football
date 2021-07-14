@@ -236,5 +236,15 @@ flex-wrap: wrap
         width: 85%;
         margin-left: 54px;
      }
+..player-blogs{
+    margin: 0;
+}
+     .blogs {
+        grid-template-columns: repeat(1, 1fr);
+       margin-right: 40px
+     }
 
+     .total-contract{
+         display: none;
+     }
  }
