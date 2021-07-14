@@ -173,6 +173,9 @@ grid-gap: 0px;
     background-color:#E02C6D;
     border-radius: 13px;
 }
+.from3 button:hover {
+    background-color: #801e05;
+}
 .from-section input{
     font-size: 20px;
     border-radius: 5px;
@@ -207,3 +210,25 @@ grid-gap: 0px;
 /*-------------------------
 --------Footer end 
 --------------------------- */
+
+
+ /* -------------------
+ media query section---
+ ---------------------------- */
+
+
+ @media (max-width: 576px){
+     .container{
+        flex-direction: column;
+        width: 100%;
+     }
+     .heading-banner h1{
+        font-size: 45px;
+        margin-bottom: 60px;
+     }
+     .banner-image{
+        margin-top: 5px;
+        width: 80%;
+     }
+
+ }
