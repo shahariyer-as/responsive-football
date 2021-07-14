@@ -115,7 +115,7 @@ display: grid;
 grid-template-columns: repeat(2,1fr);
 background-image: url(images/match.png);
 height: 700px;
-width: 100%;
+width: 98%;
 grid-gap: 0px;
 }
 /* about menu customize  */
@@ -260,9 +260,6 @@ flex-wrap: wrap
 .about-menu{
     display: none;
 }
-.footer{
-    margin-top: 20px;
-    padding-top: 30px;
-    padding-bottom: 0;
-}
+.footer-img img{
+width: 80%;
  }
