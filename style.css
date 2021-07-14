@@ -244,6 +244,23 @@ flex-wrap: wrap
         grid-template-columns: repeat(1, 1fr);
        margin-right: 40px
      }
-
-
+     .contract{
+        grid-template-columns: repeat(1, 1fr);
+     }
+.submit-menu{
+    width: 100%;
+    padding-right: 20px;
+    
+}
+.submit-menu{
+    padding-bottom: 220px;
+}
+.about-menu{
+    display: none;
+}
+.footer{
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
  }
